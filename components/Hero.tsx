@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlilght'
 import { TextGenerateEffect } from './ui/TexdtGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa6";
+import { GlobeDemo } from './ui/GridGlobe';
 
 
 const Hero = () => {
