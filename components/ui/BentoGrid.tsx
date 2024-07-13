@@ -1,6 +1,12 @@
+'use client'
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import {GlobeDemo} from "./GridGlobe"
+import Lottie from "react-lottie";
+import { useState } from "react";
+import animationData from "../../data/confetti.json"
+import MagicButton from "./MagicButton";
+import {IoCopyOutline} from "react-icons/io5"
 
 export const BentoGrid = ({
   className,
@@ -44,7 +50,7 @@ export const BentoGridItem = ({
   const leftLists = ["ReactJS", "NextJs", "Typescript"];
   const rightLists = ["Python", "Flask", "SQL"];
 
-  // const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   // const defaultOptions = {
   //   loop: copied,
@@ -55,11 +61,11 @@ export const BentoGridItem = ({
   //   },
   // };
 
-  // const handleCopy = () => {
-  //   const text = "hsu@jsmastery.pro";
-  //   navigator.clipboard.writeText(text);
-  //   setCopied(true);
-  // };
+  const handleCopy = () => {
+    const text = "justinguerrerowork@gmail.com";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+  };
 
   return (
     <div
@@ -159,25 +165,29 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {/* button border magic from tailwind css buttons  */}
-              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
-              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-              {/* add handleCopy() for the copy the text */}
+             
               <div
-                // className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                //   }`}
+                className={`absolute -bottom-5 right-0`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
+                <Lottie options = {{
+                  loop: copied,
+                  autoplay: copied,
+                  animationData,
+                  rendererSettings:{
+                    preserveAspectRatio: 'xMidyMid slice',
+                  }
+
+                }}/>
               </div>
 
-              {/* <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
+              <MagicButton
+                title={copied ? "Email is Copied!" : "Copy my email"}
+                icon={<IoCopyOutline/>}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
-              /> */}
+              />
             </div>
           )}
         </div>
