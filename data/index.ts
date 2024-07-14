@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize client collaboration, communication, and consistency",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I'm flexible with time zone communications",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Tech Stack",
+      description: "My evergrowing",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development",
+      title: "Tech enthusiast with a passion for helping people",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building an application to help streamline operations for tattoo artists",
-      description: "The Inside Scoop",
+      title: "Currently building an application to streamline operations for tattoo artists",
+      description: "What I'm working on:",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -194,7 +194,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "Mid-Market Account Executive - Vettery",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
@@ -206,12 +206,9 @@ export const navItems = [
       id: 1,
       img: "/git.svg",
     },
+    
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
     },
   ];
