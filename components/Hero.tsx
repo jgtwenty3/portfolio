@@ -3,7 +3,7 @@ import { Spotlight } from './ui/Spotlilght'
 import { TextGenerateEffect } from './ui/TexdtGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa6";
-import { GlobeDemo } from './ui/GridGlobe';
+
 
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
           words = "Transforming Concepts into Seamless User Experiences"
           />
           <p className = "text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            I&apos;m Justin, a React developer based in New York.
+            I&apos;m Justin, a full stack developer based in New York.
           </p>
           <a href ="/about">
             <MagicButton

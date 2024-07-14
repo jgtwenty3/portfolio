@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "Swish Social",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "A private social media app with customizable profiles, inifite scroll, and more.",
       img: "/swish.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "swishsocial.club",
@@ -81,15 +81,15 @@ export const navItems = [
     {
       id: 2,
       title: "Fostr",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      des: "A tool to streamline operations for dog rescue and foster network managmeent.",
+      img: "/fostr2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "/ui.yoom.com",
     },
     {
       id: 3,
       title: "Food Ordering",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      des: "A React Native food ordering application with both user and admin functionality.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "/ui.aiimg.com",
@@ -97,7 +97,7 @@ export const navItems = [
     {
       id: 4,
       title: "InkIt",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      des: "Appointment scheduling, client management, and messaging application. It's currently in the works.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "/ui.apple.com",
@@ -107,33 +107,33 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Justin is better at basketball and software engineering than me",
+      name: "Michael Jordan",
+      title: "Basketball Player",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I wish I could rap as well as Justin codes.",
+      name: "Kendrick Lamar",
+      title: "Rapper",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Who needs AI when we have Justin Guerrero",
+      name: "Sam Altman",
+      title: "CEO of OpenAI",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "I'll have what he's having!",
+      name: "Neo",
+      title: "Hacker",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Cool guy",
+      name: "The Dalai Lama ",
+      title: "His Holilness",
     },
   ];
   
@@ -173,21 +173,21 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Full Stack Software Engineering Bootcamp",
+      desc: "Graduated from Flatiron School's bootcamp. Ready to learn more and put my skills to work",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Account Executive - Justworks",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
+      title: "Mid-Market Account Executive - Foleon",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
