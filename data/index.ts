@@ -76,7 +76,7 @@ export const navItems = [
       des: "A private social media app with customizable profiles, inifite scroll, and more.",
       img: "/swish.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "swishsocial.club",
+      link: "https://youtu.be/qFGKoKrYJIs?si=8-HJYH9exoZsXhk-",
     },
     {
       id: 2,
@@ -84,7 +84,7 @@ export const navItems = [
       des: "A tool to streamline operations for dog rescue and foster network managmeent.",
       img: "/fostr2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://youtu.be/6RIQaGCkie4?si=pM2Shg2hGUIs2p-s",
     },
     {
       id: 3,
@@ -92,49 +92,51 @@ export const navItems = [
       des: "A React Native food ordering application with both user and admin functionality.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      link: "https://github.com/jgtwenty3/FoodOrdering",
     },
     {
       id: 4,
       title: "InkIt",
       des: "Appointment scheduling, client management, and messaging application. It's currently in the works.",
-      img: "/p4.svg",
+      img: "/inkitlogo.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      link: "https://github.com/jgtwenty3/InkIt",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Justin is better at basketball and software engineering than me",
-      name: "Michael Jordan",
-      title: "Basketball Player",
+        "Justin is a hard-working and driven colleague, but more importantly, he's also great to be around. I've had the pleasure of working closely with him over the last year...I'm impressed with how he handled conflicting priorities in high-pressure situations while keeping a calm, level head.",
+      name: "Lars Steffen",
+      title: "Director of Customer Success, Foleon",
+      image: "/lars.jpeg"
     },
     {
       quote:
-        "I wish I could rap as well as Justin codes.",
-      name: "Kendrick Lamar",
-      title: "Rapper",
+        "Justin is an unflappable professional who rolls with the punches...he is able to establish trust and strong rapport quickly. He is responsive, accomodating, and ensures that his clients are prepared and equipped.",
+      name: "Jennifer Mullen ",
+      title: "Keysight Technologies",
+      image: "/jenn.png"
     },
-    {
-      quote:
-        "Who needs AI when we have Justin Guerrero",
-      name: "Sam Altman",
-      title: "CEO of OpenAI",
-    },
-    {
-      quote:
-        "I'll have what he's having!",
-      name: "Neo",
-      title: "Hacker",
-    },
-    {
-      quote:
-        "Cool guy",
-      name: "The Dalai Lama ",
-      title: "His Holilness",
-    },
+    // {
+    //   quote:
+    //     "Who needs AI when we have Justin Guerrero",
+    //   name: "Sam Altman",
+    //   title: "CEO of OpenAI",
+    // },
+    // {
+    //   quote:
+    //     "I'll have what he's having!",
+    //   name: "Neo",
+    //   title: "Hacker",
+    // },
+    // {
+    //   quote:
+    //     "Cool guy",
+    //   name: "The Dalai Lama ",
+    //   title: "His Holilness",
+    // },
   ];
   
   export const companies = [
@@ -181,21 +183,21 @@ export const navItems = [
     {
       id: 2,
       title: "Account Executive - Justworks",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      desc: "Launched a new market with the fastest growth rate org-wide",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Mid-Market Account Executive - Foleon",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "Helped launch the US Market for an Amsterdam based SAAS platform",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
       title: "Mid-Market Account Executive - Vettery",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "Launched and grew an entire new market in Los Angeles after acqusition",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
