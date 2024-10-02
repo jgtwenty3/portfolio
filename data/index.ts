@@ -88,8 +88,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Food Ordering",
-      des: "A React Native food ordering application with both user and admin functionality.",
+      title: "E-Commerce",
+      des: "An E-Commerce site to sell merch and paintings",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/jgtwenty3/FoodOrdering",
@@ -100,7 +100,7 @@ export const navItems = [
       des: "Appointment scheduling, client management, and messaging application. It's currently in the works.",
       img: "/inkitlogo.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/jgtwenty3/InkIt",
+      link: "https://github.com/jgtwenty3/InkItMobile",
     },
   ];
   

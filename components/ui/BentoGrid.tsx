@@ -1,4 +1,5 @@
 'use client'
+
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import {GlobeDemo} from "./GridGlobe"
@@ -47,7 +48,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "NextJs", "Typescript"];
+  const leftLists = [ "NextJs","ReactJS", "Typescript"];
   const rightLists = ["Python", "Flask", "SQL"];
 
   const [copied, setCopied] = useState(false);
